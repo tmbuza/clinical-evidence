@@ -14,6 +14,6 @@ format:
 </div>
 
 <div style="text-align: center; font-style: normal; margin-top: 1em;">
-  Guide · Updated `r format(Sys.Date(), "%b %Y")`
+  Clinical Guide · Updated `r format(Sys.Date(), "%b %Y")`
 </div>
 
