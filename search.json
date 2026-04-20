@@ -1,0 +1,1761 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Clinical Evidence Interpretation for Medical Devices",
+    "section": "",
+    "text": "Clinical Guide · Updated Apr 2026",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html",
+    "href": "00-preface.html",
+    "title": "Preface",
+    "section": "",
+    "text": "Why interpretation matters\nIn clinical evaluation, results are often presented as if they are conclusions.\nStatistically significant findings.\nObserved improvements.\nReported outcomes.\nThese elements matter, but results alone do not establish clinical safety, clinical performance, or clinical benefit.\nA medical device may show favorable findings in one or more studies and still fall short of supporting a defensible claim if the underlying evidence is not appraised in relation to intended purpose, intended patient population, clinical context, known limitations, and benefit-risk considerations.\nThis guide focuses on that interpretive step.\nIts purpose is not simply to summarize evidence, but to show how evidence is examined, weighed, and translated into claims that can be justified within clinical evaluation.\nClinical evaluation is not only a documentation exercise.\nIt is a structured reasoning process.\nThat process asks questions such as:\nThese are not merely reporting questions.\nThey are clinical evidence interpretation questions.\nThey are also the questions that often determine whether a conclusion remains descriptive, or rises to the level of a defensible clinical claim.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#why-interpretation-matters",
+    "href": "00-preface.html#why-interpretation-matters",
+    "title": "Preface",
+    "section": "",
+    "text": "Does the evidence adequately address the device’s intended purpose?\nAre the studies methodologically suitable for the claim under consideration?\nAre there sources of bias, confounding, or uncertainty that reduce confidence in the conclusions?\nIs the observed effect clinically meaningful for the target population and use environment?\nDo the findings support a favorable benefit-risk determination in the relevant clinical context?\nWhere equivalence is invoked, is the justification scientifically and clinically credible?",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#the-reasoning-structure-used-in-this-guide",
+    "href": "00-preface.html#the-reasoning-structure-used-in-this-guide",
+    "title": "Preface",
+    "section": "The reasoning structure used in this guide",
+    "text": "The reasoning structure used in this guide\nThe cover presents the framework at a high level.\nThe diagram below expands that framework into a reproducible reasoning process for clinical evaluation.\n\n\n\n\n\n%%{init: {\n  \"theme\": \"base\",\n  \"themeVariables\": {\n    \"fontFamily\": \"Arial, sans-serif\",\n    \"fontSize\": \"18px\",\n    \"primaryTextColor\": \"#0f172a\",\n    \"lineColor\": \"#94a3b8\",\n    \"tertiaryColor\": \"#ffffff\",\n    \"background\": \"#ffffff\"\n  }\n}}%%\nflowchart TB\n\n  T[\"CDI Clinical Evidence Framework\"]\n\n  A[\"Evidence Review&lt;br/&gt;&lt;span style='font-size:15px'&gt;Study Evaluation &amp; Bias Assessment&lt;/span&gt;\"]\n  B[\"Risk-Benefit&lt;br/&gt;Evaluation&lt;br/&gt;&lt;span style='font-size:15px'&gt;Assess Safety vs Benefit&lt;/span&gt;\"]\n  C[\"Clinical Context&lt;br/&gt;&amp; Intended Use&lt;br/&gt;&lt;span style='font-size:15px'&gt;Define Population and Use Case&lt;/span&gt;\"]\n  D[\"Equivalence&lt;br/&gt;&amp; Justification&lt;br/&gt;&lt;span style='font-size:15px'&gt;Compare with Existing Devices&lt;/span&gt;\"]\n  E[\"Synthesis&lt;br/&gt;&amp; Interpretation&lt;br/&gt;&lt;span style='font-size:15px'&gt;Integrate Evidence into Clinical Meaning&lt;/span&gt;\"]\n\n  F[\"Demonstrate&lt;br/&gt;&lt;b&gt;Clinically Meaningful&lt;/b&gt;&lt;br/&gt;Benefit\"]\n  G[\"Defensible Clinical Claims&lt;br/&gt;&lt;span style='font-size:15px'&gt;Valid | Relevant | Justifiable | Reproducible&lt;/span&gt;\"]\n\n  T --&gt; A\n\n  A --&gt; B\n  B --&gt; C\n  C --&gt; D\n  D --&gt; E\n  E --&gt; A\n\n  A --- F\n  B --- F\n  C --- F\n  D --- F\n  E --- F\n\n  F --&gt; G\n\n  classDef title fill:#ffffff,stroke:#ffffff,color:#64748b,font-size:16px,font-weight:bold;\n  classDef blue fill:#0b63b6,stroke:#0b63b6,color:#ffffff,font-weight:bold;\n  classDef orange fill:#f59e0b,stroke:#f59e0b,color:#ffffff,font-weight:bold;\n  classDef green fill:#84cc16,stroke:#84cc16,color:#ffffff,font-weight:bold;\n  classDef teal fill:#14b8a6,stroke:#14b8a6,color:#ffffff,font-weight:bold;\n  classDef center fill:#ffffff,stroke:#cbd5e1,color:#111827,font-size:22px,font-weight:bold;\n  classDef outcome fill:#eaf2ff,stroke:#bfd2f6,color:#123b72,font-size:20px,font-weight:bold;\n\n  class T title;\n  class A blue;\n  class B orange;\n  class C green;\n  class D green;\n  class E teal;\n  class F center;\n  class G outcome;\n\n  linkStyle 1 stroke:#94a3b8,stroke-width:2px;\n  linkStyle 2 stroke:#94a3b8,stroke-width:2px;\n  linkStyle 3 stroke:#94a3b8,stroke-width:2px;\n  linkStyle 4 stroke:#94a3b8,stroke-width:2px;\n  linkStyle 5 stroke:#94a3b8,stroke-width:2px;\n  linkStyle 6 stroke:#cbd5e1,stroke-width:1.5px,stroke-dasharray: 3 3;\n  linkStyle 7 stroke:#cbd5e1,stroke-width:1.5px,stroke-dasharray: 3 3;\n  linkStyle 8 stroke:#cbd5e1,stroke-width:1.5px,stroke-dasharray: 3 3;\n  linkStyle 9 stroke:#cbd5e1,stroke-width:1.5px,stroke-dasharray: 3 3;\n  linkStyle 10 stroke:#cbd5e1,stroke-width:1.5px,stroke-dasharray: 3 3;\n  linkStyle 11 stroke:#93c5fd,stroke-width:3px;\n\n\n\n\n\n\nThis expanded view makes one principle explicit:\nDefensible clinical claims should emerge from interpreted evidence, not from isolated results.\nEach component of this framework is developed further in the chapters that follow.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#domain-focus-of-this-guide",
+    "href": "00-preface.html#domain-focus-of-this-guide",
+    "title": "Preface",
+    "section": "Domain focus of this guide",
+    "text": "Domain focus of this guide\nThis guide is written for work involving clinical evidence for medical devices.\nAccordingly, the wording throughout the guide is aligned to the language commonly used in this domain:\n\nclinical evaluation rather than generic evidence review\nclinical benefit, clinical performance, and clinical safety rather than broad outcome language\nintended purpose and intended use rather than general application\nbenefit-risk rather than benefit alone\nequivalence only where it is specifically relevant and adequately justified\ntotality of evidence rather than single-study interpretation\n\nThe guide does not replace applicable standards, guidance documents, or regulatory requirements.\nInstead, it strengthens the reasoning that sits underneath them.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#what-this-guide-is-and-is-not",
+    "href": "00-preface.html#what-this-guide-is-and-is-not",
+    "title": "Preface",
+    "section": "What this guide is and is not",
+    "text": "What this guide is and is not\nThis guide is not a regulatory checklist.\nIt is not a template for copying stock clinical evaluation wording.\nIt is not a shortcut to making stronger claims from weak evidence.\nThis guide is a structured framework for interpreting clinical evidence with discipline.\nIt is designed to help readers:\n\nappraise whether evidence is fit for the claim being made\nidentify limitations that affect certainty and defensibility\nconnect study findings to intended use and clinical context\nevaluate whether benefit-risk conclusions are adequately supported\ntranslate evidence into language that is clinically and scientifically justified",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#what-makes-a-clinical-claim-defensible",
+    "href": "00-preface.html#what-makes-a-clinical-claim-defensible",
+    "title": "Preface",
+    "section": "What makes a clinical claim defensible",
+    "text": "What makes a clinical claim defensible\nWithin this guide, a defensible clinical claim is one that is:\n\nValid: supported by evidence that directly addresses the question at hand\nRelevant: aligned with the device, intended purpose, target population, and use conditions\nJustifiable: based on explicit reasoning across evidence quality, clinical relevance, and benefit-risk\nReproducible: transparent enough that another qualified reviewer can follow how the conclusion was reached\n\nA defensible claim is therefore not just positive.\nIt is traceable.\nIt is bounded.\nIt is clinically grounded.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#how-to-use-this-guide",
+    "href": "00-preface.html#how-to-use-this-guide",
+    "title": "Preface",
+    "section": "How to use this guide",
+    "text": "How to use this guide\nThe chapters that follow move from core principles to applied reasoning.\nEarly sections focus on evidence appraisal and interpretive foundations. Middle sections examine major pillars of clinical evaluation, including risk-benefit, intended use, clinical context, and equivalence. Later sections focus on synthesis, claim construction, and the distinction between reported findings and supportable conclusions.\nThe guide can be read sequentially, but it can also be used selectively when a specific component of clinical evaluation needs closer scrutiny.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "00-preface.html#cdi-perspective",
+    "href": "00-preface.html#cdi-perspective",
+    "title": "Preface",
+    "section": "CDI perspective",
+    "text": "CDI perspective\nWithin Complex Data Insights, evidence is not treated as a collection of disconnected results.\nIt is treated as structured input for disciplined interpretation.\nThe goal is not simply to state what studies reported.\nThe goal is to determine what can be concluded responsibly, what can be claimed defensibly, and where the evidence remains limited.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "01-environment-setup.html",
+    "href": "01-environment-setup.html",
+    "title": "Environment Setup",
+    "section": "",
+    "text": "Why this chapter is brief\nThis guide is primarily conceptual and interpretive.\nIt is designed to support structured reasoning about clinical evidence for medical devices. It does not require programming knowledge, statistical software, or specialized technical tools to follow the core content.\nHowever, the guide is built as a reproducible Quarto book. This allows the structure, chapters, and updates to be maintained clearly and consistently over time.\nUnlike technical guides that require extensive setup, this guide focuses on interpretation rather than computation.\nThe goal is not to configure a complex environment, but to provide a clear way to navigate and use the material effectively.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "01-environment-setup.html#what-this-guide-requires",
+    "href": "01-environment-setup.html#what-this-guide-requires",
+    "title": "Environment Setup",
+    "section": "What this guide requires",
+    "text": "What this guide requires\nTo read and benefit from this guide, you only need:\n\nA web browser (for the rendered version)\nBasic familiarity with clinical evaluation concepts\n\nNo coding or software installation is required.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "01-environment-setup.html#reproducible-structure-optional",
+    "href": "01-environment-setup.html#reproducible-structure-optional",
+    "title": "Environment Setup",
+    "section": "Reproducible structure (optional)",
+    "text": "Reproducible structure (optional)\nFor readers who want to work with the source files or adapt the guide, the project is organized as a Quarto book.\nA typical structure looks like:\nproject/\n├── _quarto.yml\n├── index.qmd\n├── 00-preface.qmd\n├── 01-environment-setup.qmd\n├── 02-...\n├── assets/\n│   └── images/\n├── library/\n│   └── references.bib\nThis structure ensures that:\n- content is organized clearly - updates remain consistent - the guide can be extended or customized if needed",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "01-environment-setup.html#rendering-the-guide-optional",
+    "href": "01-environment-setup.html#rendering-the-guide-optional",
+    "title": "Environment Setup",
+    "section": "Rendering the guide (optional)",
+    "text": "Rendering the guide (optional)\nIf you want to build the guide locally, install Quarto:\nhttps://quarto.org\nThen run:\nquarto render\nThis will generate the output in the docs/ folder.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "01-environment-setup.html#optional-tools",
+    "href": "01-environment-setup.html#optional-tools",
+    "title": "Environment Setup",
+    "section": "Optional tools",
+    "text": "Optional tools\nFor those who want a fully reproducible workflow:\n\nA text editor (VS Code or similar)\nGit for version control\nGitHub for publishing\n\nThese are not required to use the guide, but can be useful for maintaining or extending it.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "01-environment-setup.html#how-to-use-this-guide-effectively",
+    "href": "01-environment-setup.html#how-to-use-this-guide-effectively",
+    "title": "Environment Setup",
+    "section": "How to use this guide effectively",
+    "text": "How to use this guide effectively\nThis guide is structured as a reasoning progression.\nYou can:\n\nRead it sequentially to follow the full clinical evaluation logic\nFocus on specific sections depending on your work\nReturn to the framework in the Preface to reconnect individual chapters to the overall reasoning structure\n\nThe emphasis throughout is on interpretation:\n\nunderstanding what evidence shows\n\nidentifying its limitations\n\nand determining what can be concluded responsibly\n\nThe goal is not just to review data, but to support defensible clinical claims.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Environment Setup</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html",
+    "href": "02-clinical-evidence-and-intended-use.html",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "",
+    "text": "Framework Position\nThis chapter establishes the foundation of clinical evaluation.\nBefore evidence is appraised, it must be clearly defined in relation to:",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#framework-position",
+    "href": "02-clinical-evidence-and-intended-use.html#framework-position",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "",
+    "text": "the medical device\n\nits intended purpose\n\nits intended use",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#what-is-clinical-evidence",
+    "href": "02-clinical-evidence-and-intended-use.html#what-is-clinical-evidence",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "What is clinical evidence?",
+    "text": "What is clinical evidence?\nClinical evidence refers to data that supports the safety, performance, and clinical benefit of a medical device. (“Regulation (EU) 2017/745 on Medical Devices” 2017).\nSources include:\n\nclinical investigations\n\npublished literature\n\npost-market surveillance data\n\nreal-world evidence\n\nThe key question is not:\nDo we have evidence?\nBut:\n👉 Is this evidence appropriate for this device and its intended use?",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#intended-purpose-vs-intended-use",
+    "href": "02-clinical-evidence-and-intended-use.html#intended-purpose-vs-intended-use",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "Intended purpose vs intended use",
+    "text": "Intended purpose vs intended use\n\nIntended purpose\nDescribes:\n\nwhat the device is designed to do\n\nits medical objective\n\n\n\nIntended use\nDescribes:\n\nwho the device is used on\n\nunder what conditions\n\nin what setting\n\nThis distinction is critical.\nEvidence must align with both.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#why-intended-use-matters",
+    "href": "02-clinical-evidence-and-intended-use.html#why-intended-use-matters",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "Why intended use matters",
+    "text": "Why intended use matters\nIntended use determines:\n\nrelevant population\n\nappropriate endpoints\n\nacceptable risk profile\n\nclinical context\n\nIf evidence does not match intended use, it weakens the evaluation.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#evidenceclaim-alignment",
+    "href": "02-clinical-evidence-and-intended-use.html#evidenceclaim-alignment",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "Evidence–claim alignment",
+    "text": "Evidence–claim alignment\nA central principle:\n👉 Evidence must be fit for purpose and aligned with intended use\nThis means:\n\naligned with the claim being made\n\nrelevant to the clinical context\n\nsufficient in scope and quality",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#common-issues",
+    "href": "02-clinical-evidence-and-intended-use.html#common-issues",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "Common issues",
+    "text": "Common issues\n\nUsing evidence from different populations\n\nIgnoring intended use conditions\n\nOverextending findings beyond study scope\n\nMixing endpoints that do not support the claim",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#a-simple-example-from-data-to-clinical-evidence",
+    "href": "02-clinical-evidence-and-intended-use.html#a-simple-example-from-data-to-clinical-evidence",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "A Simple Example: From Data to Clinical Evidence",
+    "text": "A Simple Example: From Data to Clinical Evidence\nTo make these concepts concrete, consider the following example.\n\nExample: Wearable Blood Pressure Monitor\nTo understand what clinical evidence means in practice, consider a simple example.\nA company develops a wearable blood pressure monitor intended for continuous, non-invasive measurement in adults with hypertension.\n\n\n\nIntended Use\nThe device is intended to:\n\nmeasure blood pressure continuously throughout the day\n\nsupport monitoring of hypertension trends\n\nassist clinicians in patient management\n\nbe used in ambulatory, real-world conditions\n\n\n\n\nClinical Question\nCan the wearable device provide measurements that are sufficiently accurate and useful compared to a standard clinical blood pressure cuff?\n\n\n\nData Collected\nTo answer this, data are collected from:\n\npatients using the wearable device\n\nthe same patients measured using a validated cuff device (reference standard)\n\nmultiple measurements across different conditions (rest, movement)\n\n\n\n\nObserved Results\nInitial findings show:\n\nmeasurements from the wearable device closely follow the reference device\n\nsmall differences are observed (within a few mmHg in most cases)\n\naccuracy decreases slightly during movement\n\n\n\n\nFrom Results to Evidence\nAt this point, we do not yet make a claim.\nInstead, we ask:\n\nAre the differences clinically acceptable?\n\nIs the performance consistent under intended conditions?\n\nDo the limitations affect how the device will be used?\n\nThis step — interpreting results in context of intended use — is what turns data into evidence.\n\n\n\nClinical Evidence (Conceptual)\nFrom this evaluation, we may conclude:\n\nthe device performs comparably to the reference under typical conditions\n\nit provides additional value through continuous monitoring\n\nlimitations (e.g., movement sensitivity) are understood and manageable\n\n\n\n\nDefensible Claim (What we are working toward)\n\nThe device provides clinically acceptable blood pressure measurements for continuous monitoring under intended use conditions and supports improved management of hypertension.\n\n\n\n\nKey Insight: Clinical evidence is not just about results. It is about whether those results are sufficient to support a clear and justified clinical claim.\n\n\n\nThis example illustrates how clinical evidence is always evaluated in relation to intended use.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#key-takeaway",
+    "href": "02-clinical-evidence-and-intended-use.html#key-takeaway",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nClinical evidence is only meaningful when interpreted in relation to intended use.\nThis chapter defines the foundation on which all further evaluation is built.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "02-clinical-evidence-and-intended-use.html#what-comes-next",
+    "href": "02-clinical-evidence-and-intended-use.html#what-comes-next",
+    "title": "Clinical Evidence and Intended Use",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter examines how evidence is appraised at the study level.\n\n\n\n\n“Regulation (EU) 2017/745 on Medical Devices.” 2017. European Parliament; Council of the European Union. https://eur-lex.europa.eu/eli/reg/2017/745/oj.",
+    "crumbs": [
+      "Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Evidence and Intended Use</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html",
+    "href": "03-evidence-review-and-study-appraisal.html",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "",
+    "text": "Framework Position\nIn the previous chapter, we defined clinical evidence and explained why intended use matters.\nThis chapter moves one step further.\nOnce evidence has been identified, it must be reviewed critically. The goal is not only to ask whether a study reports positive findings, but whether the study is trustworthy, relevant, and sufficient to support the claim being made.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#why-study-appraisal-matters",
+    "href": "03-evidence-review-and-study-appraisal.html#why-study-appraisal-matters",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "Why study appraisal matters",
+    "text": "Why study appraisal matters\nNot all studies contribute equally to clinical evaluation.\nTwo studies may appear to support the same conclusion, while differing substantially in:\n\ndesign\n\npopulation\n\ncomparator\n\nendpoints\n\nconduct and reporting quality\n\nA study may look persuasive on the surface, yet still provide weak support if it is poorly designed or misaligned with intended use.\nThe key question is:\n👉 Does this study provide reliable and relevant evidence for this device and its intended use?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#what-study-appraisal-examines",
+    "href": "03-evidence-review-and-study-appraisal.html#what-study-appraisal-examines",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "What study appraisal examines",
+    "text": "What study appraisal examines\nStudy appraisal is the structured review of whether evidence is fit to inform clinical evaluation.\nThis includes asking whether:\n\nthe study design is appropriate for the question\n\nthe study population matches the intended use population\n\nthe comparator is relevant and credible\n\nthe endpoints are meaningful for safety, performance, or clinical benefit\n\nthe methods reduce the risk of bias\n\nthe findings are interpretable in the real clinical context\n\nThis is the point where evidence review moves beyond summary and into judgment.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#core-elements-of-study-appraisal",
+    "href": "03-evidence-review-and-study-appraisal.html#core-elements-of-study-appraisal",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "Core elements of study appraisal",
+    "text": "Core elements of study appraisal\n\nStudy design\nThe design affects how much confidence can be placed in the findings.\nExamples include:\n\nrandomized studies\n\nnon-randomized comparative studies\n\nsingle-arm investigations\n\nobservational studies\n\nretrospective analyses\n\nDifferent designs can all contribute evidence, but they do not contribute equally. The design should be appropriate for the device question and the claim under evaluation.\n\n\nPopulation\nThe study population should reflect the intended use population as closely as possible.\nImportant considerations include:\n\nage group\n\ndisease condition or severity\n\nclinical setting\n\ninclusion and exclusion criteria\n\nwhether the population is representative of actual users or patients\n\nIf the study population differs substantially from the intended use population, the evidence becomes harder to apply.\n\n\nComparator\nA comparator helps place device performance in context.\nDepending on the question, this may include:\n\nstandard of care\n\nreference method\n\npredicate or equivalent device\n\nclinician judgment\n\nno comparator, where justified\n\nThe comparator should be credible and appropriate to the claim being assessed.\n\n\nEndpoints\nEndpoints should be meaningful and relevant.\nThese may include:\n\nsafety outcomes\n\ntechnical or analytical performance\n\ndiagnostic accuracy\n\nusability outcomes\n\nclinically relevant patient outcomes\n\nA common problem is relying on endpoints that are measurable but not sufficient to support the intended claim.\n\n\nBias and limitations\nAll studies have limitations.\nAppraisal should consider whether there are issues such as:\n\nselection bias\n\nmeasurement bias\n\nmissing data\n\nshort follow-up\n\ninconsistent procedures\n\nlimited generalizability\n\nThese do not always invalidate a study, but they affect how strongly its findings can be relied upon.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#revisiting-the-example-wearable-blood-pressure-monitor",
+    "href": "03-evidence-review-and-study-appraisal.html#revisiting-the-example-wearable-blood-pressure-monitor",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "Revisiting the example: wearable blood pressure monitor",
+    "text": "Revisiting the example: wearable blood pressure monitor\nTo make study appraisal concrete, return to the example introduced in the previous chapter.\nA company develops a wearable blood pressure monitor intended for continuous, non-invasive monitoring in adults with hypertension under ambulatory, real-world conditions.\nSuppose the clinical evidence includes a prospective comparative study evaluating the wearable device against a validated clinical blood pressure cuff.\n\n\nStudy design\nThe study is prospective and compares device readings to a reference standard.\nThis is useful because it directly evaluates agreement between the device under assessment and an accepted comparator.\nAt the same time, the study design still needs scrutiny. We would want to know:\n\nhow measurements were scheduled\n\nwhether procedures were standardized\n\nwhether both devices were used under comparable conditions\n\nwhether the study captured both controlled and real-world use\n\n\n\n\nPopulation\nThe study includes:\n\nadults with hypertension\n\nparticipants monitored in both clinic and ambulatory settings\n\nThis appears relevant to intended use.\nHowever, appraisal should still ask:\n\nDoes the population represent the range of likely users?\n\nWere important subgroups included?\n\nWas the sample too narrow in age, severity, or context?\n\nA study may be technically sound but still limited if its participants do not reflect real intended users.\n\n\n\nComparator\nThe comparator is a validated blood pressure cuff.\nThis is appropriate because the core question is whether the wearable provides measurements that are acceptably close to an established method.\nA weak or inappropriate comparator would reduce confidence in the study, even if the results looked favorable.\n\n\n\nEndpoints\nThe study reports endpoints such as:\n\nmean difference between wearable and cuff measurements\n\nproportion of readings within acceptable clinical thresholds\n\nperformance under rest and movement conditions\n\nThese endpoints are useful because they connect directly to clinical acceptability.\nAppraisal should still ask:\n\nAre these thresholds justified?\n\nAre the endpoints sufficient to support the intended clinical claim?\n\nDo they reflect actual use conditions?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#appraisal-questions-for-the-example",
+    "href": "03-evidence-review-and-study-appraisal.html#appraisal-questions-for-the-example",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "Appraisal questions for the example",
+    "text": "Appraisal questions for the example\nAt this stage, a structured review might ask:\n\nDoes the study design appropriately address the device question?\n\nDoes the population align with intended use?\n\nIs the comparator acceptable and clinically meaningful?\n\nAre the endpoints relevant to safety, performance, and benefit?\n\nWere real-world use conditions adequately represented?\n\nDo the findings support the proposed claim, or only part of it?\n\nThese questions move us from simply reading results to judging evidence quality.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#potential-limitations-in-the-example",
+    "href": "03-evidence-review-and-study-appraisal.html#potential-limitations-in-the-example",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "Potential limitations in the example",
+    "text": "Potential limitations in the example\nEven if the findings appear favorable, limitations may affect interpretation.\nPossible concerns include:\n\nreduced accuracy during movement\n\nsmall sample size\n\nlimited diversity of participants\n\nshort monitoring duration\n\ninsufficient representation of real-world variability\n\nThese limitations do not automatically invalidate the evidence. However, they shape what can reasonably be concluded.\nFor example, good performance at rest does not automatically justify a claim about reliable continuous monitoring in ambulatory conditions.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#from-study-results-to-evidence-judgment",
+    "href": "03-evidence-review-and-study-appraisal.html#from-study-results-to-evidence-judgment",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "From study results to evidence judgment",
+    "text": "From study results to evidence judgment\nSuppose the study shows strong agreement with the reference cuff under controlled conditions and slightly weaker agreement during movement.\nA superficial reading might conclude:\n\nThe device works well.\n\nA proper appraisal asks something more precise:\n\nIs the level of agreement clinically acceptable?\n\nUnder which conditions is performance reliable?\n\nAre the limitations minor, or do they affect intended use directly?\n\nDoes this study support the full claim, or only a narrower one?\n\nThis is the transition from results to evidence judgment.\n\n\n\nKey Insight: A positive study is not automatically strong evidence. Evidence must be appraised for design quality, relevance, and interpretability in relation to intended use.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#key-takeaway",
+    "href": "03-evidence-review-and-study-appraisal.html#key-takeaway",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nStudy appraisal is the process of deciding whether a study is credible, relevant, and sufficient to support clinical evaluation.\nThe important question is not simply whether a study reports favorable findings.\nIt is whether the study provides trustworthy support for a defensible claim about the device.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "03-evidence-review-and-study-appraisal.html#what-comes-next",
+    "href": "03-evidence-review-and-study-appraisal.html#what-comes-next",
+    "title": "Evidence Review and Study Appraisal",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter examines bias, quality, and limitations in greater detail, showing how weaknesses in evidence can affect the strength of the final evaluation.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Evidence Review and Study Appraisal</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html",
+    "href": "04-bias-quality-and-limitations.html",
+    "title": "Bias, Quality, and Limitations",
+    "section": "",
+    "text": "Framework Position\nThis chapter deepens the Evidence Review stage by making one critical aspect explicit:\n👉 No study is perfect.\nAll evidence carries:\nThe goal is not to eliminate them, but to understand them.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#framework-position",
+    "href": "04-bias-quality-and-limitations.html#framework-position",
+    "title": "Bias, Quality, and Limitations",
+    "section": "",
+    "text": "bias\n\nuncertainty\n\nlimitations",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#from-appraisal-to-critical-interpretation",
+    "href": "04-bias-quality-and-limitations.html#from-appraisal-to-critical-interpretation",
+    "title": "Bias, Quality, and Limitations",
+    "section": "From appraisal to critical interpretation",
+    "text": "From appraisal to critical interpretation\nIn the previous chapter, we asked:\n👉 How reliable is this study?\nNow we ask:\n👉 What could be misleading about this study?\nThis is where evaluation becomes truly analytical.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#what-is-bias",
+    "href": "04-bias-quality-and-limitations.html#what-is-bias",
+    "title": "Bias, Quality, and Limitations",
+    "section": "What is bias?",
+    "text": "What is bias?\nBias is a systematic error that distorts results. (Hernán and Robins 2020)\nIt can:\n\nexaggerate effects\n\nhide true effects\n\ncreate false conclusions\n\nBias is not random noise.\nIt consistently pushes results in a direction.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#common-types-of-bias",
+    "href": "04-bias-quality-and-limitations.html#common-types-of-bias",
+    "title": "Bias, Quality, and Limitations",
+    "section": "Common types of bias",
+    "text": "Common types of bias\n\nSelection bias\n\nnon-representative participants\n\ninappropriate inclusion/exclusion\n\n👉 affects generalizability\n\n\n\nMeasurement bias\n\ninaccurate measurements\n\ninconsistent methods\n\n👉 affects outcome validity\n\n\n\nConfounding\n\nexternal factors influence results\n\nExample:\n\nage, comorbidities, baseline differences\n\n👉 affects causal interpretation\n\n\n\nReporting bias\n\nselective reporting of outcomes\n\nomission of negative results\n\n👉 affects completeness of evidence\n\n\n\nAttrition bias\n\nloss of participants\n\nincomplete follow-up\n\n👉 affects reliability of conclusions",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#what-are-limitations",
+    "href": "04-bias-quality-and-limitations.html#what-are-limitations",
+    "title": "Bias, Quality, and Limitations",
+    "section": "What are limitations?",
+    "text": "What are limitations?\nLimitations are constraints of the study.\nThey may include:\n\nsmall sample size\n\nshort follow-up duration\n\nrestricted populations\n\nlimited endpoints\n\nLimitations do not invalidate a study.\nBut they restrict what can be concluded.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#quality-vs-bias",
+    "href": "04-bias-quality-and-limitations.html#quality-vs-bias",
+    "title": "Bias, Quality, and Limitations",
+    "section": "Quality vs bias",
+    "text": "Quality vs bias\nThese are related but different:\n\nQuality → how well the study was conducted\n\nBias → how results may be systematically distorted\n\nA study can be:\n\nhigh quality but still biased\n\nlow quality with unclear bias",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#why-this-matters",
+    "href": "04-bias-quality-and-limitations.html#why-this-matters",
+    "title": "Bias, Quality, and Limitations",
+    "section": "Why this matters",
+    "text": "Why this matters\nWithout explicitly identifying bias and limitations:\n\nweak evidence may appear strong\n\ninappropriate conclusions may be drawn\n\nclinical claims may become indefensible",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#structured-approach",
+    "href": "04-bias-quality-and-limitations.html#structured-approach",
+    "title": "Bias, Quality, and Limitations",
+    "section": "Structured approach",
+    "text": "Structured approach\nFor each study, ask:\n\nWhat biases may be present?\n\nHow large could their impact be?\n\nWhat are the key limitations?\n\nHow do these affect interpretation?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#from-bias-to-confidence",
+    "href": "04-bias-quality-and-limitations.html#from-bias-to-confidence",
+    "title": "Bias, Quality, and Limitations",
+    "section": "From bias to confidence",
+    "text": "From bias to confidence\nBias and limitations directly influence:\n👉 how much weight a study should carry\nNot all evidence is equal.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#key-takeaway",
+    "href": "04-bias-quality-and-limitations.html#key-takeaway",
+    "title": "Bias, Quality, and Limitations",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nUnderstanding bias and limitations is essential for:\n\naccurate interpretation\n\nbalanced evaluation\n\ndefensible clinical claims",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "04-bias-quality-and-limitations.html#what-comes-next",
+    "href": "04-bias-quality-and-limitations.html#what-comes-next",
+    "title": "Bias, Quality, and Limitations",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter focuses on risk-benefit evaluation, where evidence is translated into clinical value.\n\n\n\n\nHernán, Miguel A., and James M. Robins. 2020. Causal Inference: What If. Chapman & Hall/CRC. https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Bias, Quality, and Limitations</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html",
+    "href": "05-risk-benefit-evaluation.html",
+    "title": "Risk-Benefit Evaluation",
+    "section": "",
+    "text": "Framework Position\nThis chapter corresponds to the Risk–Benefit Evaluation stage of the framework.\nAfter:\nwe now ask:\n👉 Does the benefit outweigh the risk for the intended use?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#framework-position",
+    "href": "05-risk-benefit-evaluation.html#framework-position",
+    "title": "Risk-Benefit Evaluation",
+    "section": "",
+    "text": "defining evidence (Chapter 02)\n\nappraising studies (Chapter 03)\n\nidentifying bias and limitations (Chapter 04)",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#what-is-risk-benefit-evaluation",
+    "href": "05-risk-benefit-evaluation.html#what-is-risk-benefit-evaluation",
+    "title": "Risk-Benefit Evaluation",
+    "section": "What is risk-benefit evaluation?",
+    "text": "What is risk-benefit evaluation?\nRisk-benefit evaluation is the process of determining whether: (see regulatory guidance (“Factors to Consider When Making Benefit-Risk Determinations in Medical Device Premarket Approval and de Novo Classifications” 2016)).\n👉 the clinical benefits of a device justify its potential risks\nThis is not a statistical exercise alone.\nIt is a clinical and contextual judgment.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#what-counts-as-benefit",
+    "href": "05-risk-benefit-evaluation.html#what-counts-as-benefit",
+    "title": "Risk-Benefit Evaluation",
+    "section": "What counts as benefit?",
+    "text": "What counts as benefit?\nClinical benefit refers to:\n\nimprovement in patient outcomes\n\nsymptom relief\n\ndiagnostic accuracy\n\nreduction in disease progression\n\nimproved quality of life\n\nKey requirement:\n👉 Benefit must be clinically meaningful, not just statistically significant",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#what-counts-as-risk",
+    "href": "05-risk-benefit-evaluation.html#what-counts-as-risk",
+    "title": "Risk-Benefit Evaluation",
+    "section": "What counts as risk?",
+    "text": "What counts as risk?\nRisk includes:\n\nadverse events\n\ndevice-related complications\n\nmisuse or user error\n\nlong-term safety concerns\n\nRisk is evaluated in terms of:\n\nseverity\n\nfrequency\n\nreversibility",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#benefit-vs-significance",
+    "href": "05-risk-benefit-evaluation.html#benefit-vs-significance",
+    "title": "Risk-Benefit Evaluation",
+    "section": "Benefit vs significance",
+    "text": "Benefit vs significance\nA statistically significant result does not guarantee meaningful benefit.\nExample:\n\nsmall improvement → statistically significant\n\nbut clinically negligible\n\n👉 Interpretation must go beyond p-values",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#context-matters",
+    "href": "05-risk-benefit-evaluation.html#context-matters",
+    "title": "Risk-Benefit Evaluation",
+    "section": "Context matters",
+    "text": "Context matters\nRisk-benefit balance depends on:\n\ndisease severity\n\navailability of alternatives\n\npatient population\n\nclinical setting\n\nExample:\n\nhigher risk may be acceptable in life-threatening conditions\n\nlower risk expected for routine or low-impact use",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#integrating-evidence",
+    "href": "05-risk-benefit-evaluation.html#integrating-evidence",
+    "title": "Risk-Benefit Evaluation",
+    "section": "Integrating evidence",
+    "text": "Integrating evidence\nRisk-benefit evaluation requires:\n\ncombining multiple studies\n\naccounting for bias and limitations\n\nweighing strength of evidence\n\nNot all evidence contributes equally.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#structured-approach",
+    "href": "05-risk-benefit-evaluation.html#structured-approach",
+    "title": "Risk-Benefit Evaluation",
+    "section": "Structured approach",
+    "text": "Structured approach\nA simple structure:\n\nWhat benefits are demonstrated?\n\nHow strong is the supporting evidence?\n\nWhat risks are identified?\n\nHow certain are those risks?\n\nDoes benefit outweigh risk in the intended use?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#common-pitfalls",
+    "href": "05-risk-benefit-evaluation.html#common-pitfalls",
+    "title": "Risk-Benefit Evaluation",
+    "section": "Common pitfalls",
+    "text": "Common pitfalls\n\nfocusing only on benefits\n\nunderestimating risks\n\nignoring uncertainty\n\novergeneralizing findings\n\nfailing to consider clinical context",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#from-evaluation-to-judgment",
+    "href": "05-risk-benefit-evaluation.html#from-evaluation-to-judgment",
+    "title": "Risk-Benefit Evaluation",
+    "section": "From evaluation to judgment",
+    "text": "From evaluation to judgment\nRisk-benefit evaluation leads to:\n👉 a justified clinical position\nNot absolute certainty, but defensible reasoning",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#key-takeaway",
+    "href": "05-risk-benefit-evaluation.html#key-takeaway",
+    "title": "Risk-Benefit Evaluation",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nClinical evaluation is not about proving benefit alone.\nIt is about demonstrating that:\n👉 benefit outweighs risk for the intended use",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "05-risk-benefit-evaluation.html#what-comes-next",
+    "href": "05-risk-benefit-evaluation.html#what-comes-next",
+    "title": "Risk-Benefit Evaluation",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter focuses on equivalence and justification, where evidence is compared with existing devices.\n\n\n\n\n“Factors to Consider When Making Benefit-Risk Determinations in Medical Device Premarket Approval and de Novo Classifications.” 2016. U.S. Food; Drug Administration. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/factors-consider-when-making-benefit-risk-determinations-medical-device-premarket-approval-and-de.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Risk-Benefit Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html",
+    "href": "06-equivalence-and-justification.html",
+    "title": "Equivalence and Justification",
+    "section": "",
+    "text": "Framework Position\nThis chapter corresponds to the Equivalence & Justification stage of the framework.\nAfter establishing:\nwe now ask:\n👉 Can this evidence be used to justify claims for this device?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#framework-position",
+    "href": "06-equivalence-and-justification.html#framework-position",
+    "title": "Equivalence and Justification",
+    "section": "",
+    "text": "what evidence exists (Chapter 02)\n\nhow reliable it is (Chapter 03)\n\nits limitations (Chapter 04)\n\nand how benefits compare to risks (Chapter 05)",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#what-is-equivalence",
+    "href": "06-equivalence-and-justification.html#what-is-equivalence",
+    "title": "Equivalence and Justification",
+    "section": "What is equivalence?",
+    "text": "What is equivalence?\nEquivalence refers to demonstrating that a device is sufficiently similar to another device (or evidence source) such that: (“MEDDEV 2.7/1 Rev. 4: Clinical Evaluation: A Guide for Manufacturers and Notified Bodies” 2016)\n👉 evidence from one can support conclusions about the other\nThis is commonly used when:\n\ndirect clinical data is limited\n\nexisting evidence is leveraged",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#types-of-equivalence",
+    "href": "06-equivalence-and-justification.html#types-of-equivalence",
+    "title": "Equivalence and Justification",
+    "section": "Types of equivalence",
+    "text": "Types of equivalence\n\nClinical equivalence\n\nsimilar clinical effect\n\ncomparable outcomes\n\n\n\nTechnical equivalence\n\nsimilar design, specifications, performance\n\n\n\nBiological equivalence\n\nsimilar interaction with biological systems\n\nAll three dimensions may be required depending on context.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#why-equivalence-matters",
+    "href": "06-equivalence-and-justification.html#why-equivalence-matters",
+    "title": "Equivalence and Justification",
+    "section": "Why equivalence matters",
+    "text": "Why equivalence matters\nEquivalence allows:\n\nuse of existing clinical data\n\nreduction in need for new studies\n\nsupport for safety and performance claims\n\nBut it must be:\n👉 justified, not assumed",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#what-is-justification",
+    "href": "06-equivalence-and-justification.html#what-is-justification",
+    "title": "Equivalence and Justification",
+    "section": "What is justification?",
+    "text": "What is justification?\nJustification is the structured reasoning that explains:\n👉 why the available evidence supports the claims being made\nThis includes:\n\nlinking evidence to the device\n\nexplaining similarities and differences\n\naddressing gaps and uncertainties",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#evidence-bridging",
+    "href": "06-equivalence-and-justification.html#evidence-bridging",
+    "title": "Equivalence and Justification",
+    "section": "Evidence bridging",
+    "text": "Evidence bridging\nA common use case:\n👉 bridging evidence from:\n\nsimilar devices\n\nprevious generations\n\nrelated technologies\n\nKey requirement:\n\ndifferences must not affect clinical performance",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#when-equivalence-fails",
+    "href": "06-equivalence-and-justification.html#when-equivalence-fails",
+    "title": "Equivalence and Justification",
+    "section": "When equivalence fails",
+    "text": "When equivalence fails\nEquivalence is not valid when:\n\ndifferences are clinically significant\n\nintended use differs\n\npopulations are not comparable\n\nperformance characteristics diverge\n\nIn such cases:\n👉 new clinical evidence may be required",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#common-pitfalls",
+    "href": "06-equivalence-and-justification.html#common-pitfalls",
+    "title": "Equivalence and Justification",
+    "section": "Common pitfalls",
+    "text": "Common pitfalls\n\nassuming similarity without analysis\n\nignoring small but important differences\n\noverstating equivalence\n\nweak justification of evidence transfer",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#structured-approach",
+    "href": "06-equivalence-and-justification.html#structured-approach",
+    "title": "Equivalence and Justification",
+    "section": "Structured approach",
+    "text": "Structured approach\n\nWhat device or evidence is being compared?\n\nIn what ways are they similar?\n\nIn what ways are they different?\n\nDo differences affect clinical outcomes?\n\nIs the justification scientifically and clinically sound?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#from-equivalence-to-claims",
+    "href": "06-equivalence-and-justification.html#from-equivalence-to-claims",
+    "title": "Equivalence and Justification",
+    "section": "From equivalence to claims",
+    "text": "From equivalence to claims\nEquivalence and justification enable:\n👉 extension of evidence into defensible claims\nWithout proper justification:\n\nclaims become weak\n\nregulatory acceptance becomes uncertain",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#key-takeaway",
+    "href": "06-equivalence-and-justification.html#key-takeaway",
+    "title": "Equivalence and Justification",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nEquivalence is not about convenience.\nIt is about:\n👉 scientifically justified comparison that supports clinical claims",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "06-equivalence-and-justification.html#what-comes-next",
+    "href": "06-equivalence-and-justification.html#what-comes-next",
+    "title": "Equivalence and Justification",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter focuses on clinical context and applicability, ensuring that evidence holds within real-world use.\n\n\n\n\n“MEDDEV 2.7/1 Rev. 4: Clinical Evaluation: A Guide for Manufacturers and Notified Bodies.” 2016. European Commission. https://ec.europa.eu/docsroom/documents/17522/attachments/1/translations/en/renditions/native.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Equivalence and Justification</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html",
+    "href": "07-clinical-context-and-applicability.html",
+    "title": "Clinical Context and Applicability",
+    "section": "",
+    "text": "Framework Position\nThis chapter corresponds to the Clinical Context & Applicability stage.\nAfter:\nwe now ask:\n👉 Does this evidence hold in the real clinical setting where the device will be used?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#framework-position",
+    "href": "07-clinical-context-and-applicability.html#framework-position",
+    "title": "Clinical Context and Applicability",
+    "section": "",
+    "text": "evaluating evidence\n\nunderstanding bias and limitations\n\nassessing risk-benefit\n\nestablishing equivalence",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#what-is-clinical-context",
+    "href": "07-clinical-context-and-applicability.html#what-is-clinical-context",
+    "title": "Clinical Context and Applicability",
+    "section": "What is clinical context?",
+    "text": "What is clinical context?\nClinical context defines:\n\nthe patient population\n\nthe clinical setting\n\nthe conditions of use\n\nthe healthcare environment\n\nIt answers:\n👉 Where and how will this device actually be used?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#what-is-applicability",
+    "href": "07-clinical-context-and-applicability.html#what-is-applicability",
+    "title": "Clinical Context and Applicability",
+    "section": "What is applicability?",
+    "text": "What is applicability?\nApplicability refers to:\n👉 how well the available evidence translates to real-world use\nEven strong evidence may not be applicable if:\n\npopulations differ\n\nsettings differ\n\nuse conditions differ",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#why-this-matters",
+    "href": "07-clinical-context-and-applicability.html#why-this-matters",
+    "title": "Clinical Context and Applicability",
+    "section": "Why this matters",
+    "text": "Why this matters\nA common mistake in clinical evaluation is:\n\nassuming that valid evidence is automatically applicable\n\nThis is not always true.\nEvidence must be:\n👉 both valid and applicable",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#key-dimensions-of-applicability",
+    "href": "07-clinical-context-and-applicability.html#key-dimensions-of-applicability",
+    "title": "Clinical Context and Applicability",
+    "section": "Key dimensions of applicability",
+    "text": "Key dimensions of applicability\n\nPopulation\n\nDoes the study population match the intended users?\n\nAre demographics, disease state, and severity comparable?\n\n\n\n\nSetting\n\nWas the study conducted in a similar clinical environment?\n\nHospital vs outpatient vs home use\n\n\n\n\nUse conditions\n\nWere conditions controlled or real-world?\n\nWere users trained similarly?\n\n\n\n\nDevice use\n\nWas the device used as intended?\n\nWere protocols consistent with actual use?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#contextual-differences",
+    "href": "07-clinical-context-and-applicability.html#contextual-differences",
+    "title": "Clinical Context and Applicability",
+    "section": "Contextual differences",
+    "text": "Contextual differences\nEven small differences can matter:\n\nspecialist vs generalist use\n\nhigh-resource vs low-resource settings\n\ncontrolled trial vs routine practice\n\n👉 These differences affect outcomes",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#common-pitfalls",
+    "href": "07-clinical-context-and-applicability.html#common-pitfalls",
+    "title": "Clinical Context and Applicability",
+    "section": "Common pitfalls",
+    "text": "Common pitfalls\n\nignoring differences between study and real-world use\n\novergeneralizing findings\n\nassuming applicability without justification\n\nfailing to define intended clinical context clearly",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#structured-approach",
+    "href": "07-clinical-context-and-applicability.html#structured-approach",
+    "title": "Clinical Context and Applicability",
+    "section": "Structured approach",
+    "text": "Structured approach\n\nWhat is the intended clinical context?\n\nHow does the study context compare?\n\nWhat differences exist?\n\nDo these differences affect outcomes?\n\nCan evidence still be applied?",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#from-evidence-to-real-world-use",
+    "href": "07-clinical-context-and-applicability.html#from-evidence-to-real-world-use",
+    "title": "Clinical Context and Applicability",
+    "section": "From evidence to real-world use",
+    "text": "From evidence to real-world use\nApplicability ensures that:\n👉 evidence supports actual clinical performance, not just study results",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#key-takeaway",
+    "href": "07-clinical-context-and-applicability.html#key-takeaway",
+    "title": "Clinical Context and Applicability",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nEvidence must be interpreted within the clinical context of use.\nWithout this step:\n\nclaims may be valid in theory\n\nbut fail in practice",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "07-clinical-context-and-applicability.html#what-comes-next",
+    "href": "07-clinical-context-and-applicability.html#what-comes-next",
+    "title": "Clinical Context and Applicability",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter focuses on synthesis and interpretation, where all evidence is integrated into a coherent clinical understanding.\nThe subsequent chapters move from integrating evidence into a coherent clinical understanding to translating that understanding into defensible clinical claims.",
+    "crumbs": [
+      "Core Evaluation Reasoning",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Clinical Context and Applicability</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html",
+    "href": "08-synthesis-and-interpretation.html",
+    "title": "From Results to Defensible Claims",
+    "section": "",
+    "text": "Framework Position\nThis chapter corresponds to the transition from Synthesis & Interpretation to Defensible Clinical Claims.\nAfter integrating evidence, we now ask:\n👉 What claims can we responsibly maske based on this evidence?",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#from-results-to-claims",
+    "href": "08-synthesis-and-interpretation.html#from-results-to-claims",
+    "title": "From Results to Defensible Claims",
+    "section": "From results to claims",
+    "text": "From results to claims\nResults alone do not justify claims.\nA valid claim requires:\n\nrelevant evidence\n\nreliable studies\n\nunderstood limitations\n\nacceptable risk-benefit\n\nappropriate clinical context\n\n👉 Claims emerge from the full reasoning chain",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#what-makes-a-claim-defensible",
+    "href": "08-synthesis-and-interpretation.html#what-makes-a-claim-defensible",
+    "title": "From Results to Defensible Claims",
+    "section": "What makes a claim defensible?",
+    "text": "What makes a claim defensible?\nA defensible claim is:\n\nValid → supported by evidence\n\nRelevant → aligned with intended use\n\nJustifiable → reasoning is clear and structured\n\nReproducible → conclusions can be followed and verified",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#overclaiming-vs-justified-claims",
+    "href": "08-synthesis-and-interpretation.html#overclaiming-vs-justified-claims",
+    "title": "From Results to Defensible Claims",
+    "section": "Overclaiming vs justified claims",
+    "text": "Overclaiming vs justified claims\n\nOverclaiming\n\nextends beyond evidence\n\nignores limitations\n\nassumes applicability\n\n\n\nJustified claims\n\nstay within evidence boundaries\n\nacknowledge uncertainty\n\nare proportionate to evidence strength",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#role-of-uncertainty",
+    "href": "08-synthesis-and-interpretation.html#role-of-uncertainty",
+    "title": "From Results to Defensible Claims",
+    "section": "Role of uncertainty",
+    "text": "Role of uncertainty\nAll claims carry uncertainty.\nDefensible claims:\n\nrecognize uncertainty\n\ndo not overstate conclusions\n\nremain appropriately qualified",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#evidence-strength-and-claim-strength",
+    "href": "08-synthesis-and-interpretation.html#evidence-strength-and-claim-strength",
+    "title": "From Results to Defensible Claims",
+    "section": "Evidence strength and claim strength",
+    "text": "Evidence strength and claim strength\nStronger evidence → stronger claims\nWeaker evidence → more cautious claims\n👉 Claim strength must match evidence strength",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#common-pitfalls",
+    "href": "08-synthesis-and-interpretation.html#common-pitfalls",
+    "title": "From Results to Defensible Claims",
+    "section": "Common pitfalls",
+    "text": "Common pitfalls\n\nmaking claims directly from single studies\n\nignoring bias and limitations\n\noverstating statistical findings\n\nfailing to align with intended use\n\nvague or ambiguous wording",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#structured-approach",
+    "href": "08-synthesis-and-interpretation.html#structured-approach",
+    "title": "From Results to Defensible Claims",
+    "section": "Structured approach",
+    "text": "Structured approach\n\nWhat does the evidence support?\n\nWhat are the limitations?\n\nWhat level of confidence is appropriate?\n\nWhat claim can be justified?\n\nIs the claim clearly supported by reasoning?",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#traceability",
+    "href": "08-synthesis-and-interpretation.html#traceability",
+    "title": "From Results to Defensible Claims",
+    "section": "Traceability",
+    "text": "Traceability\nA defensible claim should allow:\n👉 traceability back to evidence\nThis means:\n\neach claim can be linked to data\n\nreasoning steps are transparent\n\nconclusions can be reviewed",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#key-takeaway",
+    "href": "08-synthesis-and-interpretation.html#key-takeaway",
+    "title": "From Results to Defensible Claims",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nClinical claims are not derived from results alone.\nThey are constructed through:\n👉 structured, transparent, and justified interpretation of evidence",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "08-synthesis-and-interpretation.html#what-comes-next",
+    "href": "08-synthesis-and-interpretation.html#what-comes-next",
+    "title": "From Results to Defensible Claims",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter focuses on writing clear and justifiable claims, translating reasoning into precise language.",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html",
+    "href": "09-from-results-to-defensible-claims.html",
+    "title": "From Results to Defensible Claims",
+    "section": "",
+    "text": "Framework Position\nThis chapter corresponds to the transition from Synthesis & Interpretation to Defensible Clinical Claims.\nAfter integrating evidence, we now ask:\n👉 What claims can we responsibly make based on this evidence?",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#what-is-a-clinical-claim",
+    "href": "09-from-results-to-defensible-claims.html#what-is-a-clinical-claim",
+    "title": "From Results to Defensible Claims",
+    "section": "What is a clinical claim?",
+    "text": "What is a clinical claim?\nA clinical claim is a statement that describes:\n\nthe performance of a device\n\nits clinical benefit\n\nits safety profile\n\nClaims must be:\n👉 supported by evidence\n👉 aligned with intended use\n👉 justified through reasoning\nA defensible clinical claim must be supported by appropriate, reliable, and clinically relevant evidence (“Regulation (EU) 2017/745 on Medical Devices” 2017).",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#from-results-to-claims",
+    "href": "09-from-results-to-defensible-claims.html#from-results-to-claims",
+    "title": "From Results to Defensible Claims",
+    "section": "From results to claims",
+    "text": "From results to claims\nResults alone do not justify claims.\nA valid claim requires:\n\nrelevant evidence\n\nreliable studies\n\nunderstood limitations\n\nacceptable risk-benefit\n\nappropriate clinical context\n\n👉 Claims emerge from the full reasoning chain",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#what-makes-a-claim-defensible",
+    "href": "09-from-results-to-defensible-claims.html#what-makes-a-claim-defensible",
+    "title": "From Results to Defensible Claims",
+    "section": "What makes a claim defensible?",
+    "text": "What makes a claim defensible?\nA defensible claim is:\n\nValid → supported by evidence\n\nRelevant → aligned with intended use\n\nJustifiable → reasoning is clear and structured\n\nReproducible → conclusions can be followed and verified",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#overclaiming-vs-justified-claims",
+    "href": "09-from-results-to-defensible-claims.html#overclaiming-vs-justified-claims",
+    "title": "From Results to Defensible Claims",
+    "section": "Overclaiming vs justified claims",
+    "text": "Overclaiming vs justified claims\n\nOverclaiming\n\nextends beyond evidence\n\nignores limitations\n\nassumes applicability\n\n\n\nJustified claims\n\nstay within evidence boundaries\n\nacknowledge uncertainty\n\nare proportionate to evidence strength",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#role-of-uncertainty",
+    "href": "09-from-results-to-defensible-claims.html#role-of-uncertainty",
+    "title": "From Results to Defensible Claims",
+    "section": "Role of uncertainty",
+    "text": "Role of uncertainty\nAll claims carry uncertainty.\nDefensible claims:\n\nrecognize uncertainty\n\ndo not overstate conclusions\n\nremain appropriately qualified",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#evidence-strength-and-claim-strength",
+    "href": "09-from-results-to-defensible-claims.html#evidence-strength-and-claim-strength",
+    "title": "From Results to Defensible Claims",
+    "section": "Evidence strength and claim strength",
+    "text": "Evidence strength and claim strength\nStronger evidence → stronger claims\nWeaker evidence → more cautious claims\n👉 Claim strength must match evidence strength",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#common-pitfalls",
+    "href": "09-from-results-to-defensible-claims.html#common-pitfalls",
+    "title": "From Results to Defensible Claims",
+    "section": "Common pitfalls",
+    "text": "Common pitfalls\n\nmaking claims directly from single studies\n\nignoring bias and limitations\n\noverstating statistical findings\n\nfailing to align with intended use\n\nvague or ambiguous wording",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#structured-approach",
+    "href": "09-from-results-to-defensible-claims.html#structured-approach",
+    "title": "From Results to Defensible Claims",
+    "section": "Structured approach",
+    "text": "Structured approach\n\nWhat does the evidence support?\n\nWhat are the limitations?\n\nWhat level of confidence is appropriate?\n\nWhat claim can be justified?\n\nIs the claim clearly supported by reasoning?",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#traceability",
+    "href": "09-from-results-to-defensible-claims.html#traceability",
+    "title": "From Results to Defensible Claims",
+    "section": "Traceability",
+    "text": "Traceability\nA defensible claim should allow:\n👉 traceability back to evidence\nThis means:\n\neach claim can be linked to data\n\nreasoning steps are transparent\n\nconclusions can be reviewed",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#key-takeaway",
+    "href": "09-from-results-to-defensible-claims.html#key-takeaway",
+    "title": "From Results to Defensible Claims",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nClinical claims are not derived from results alone.\nThey are constructed through:\n👉 structured, transparent, and justified interpretation of evidence",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "09-from-results-to-defensible-claims.html#what-comes-next",
+    "href": "09-from-results-to-defensible-claims.html#what-comes-next",
+    "title": "From Results to Defensible Claims",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter focuses on writing clear and justifiable claims, translating reasoning into precise language.\n\n\n\n\n“Regulation (EU) 2017/745 on Medical Devices.” 2017. European Parliament; Council of the European Union. https://eur-lex.europa.eu/eli/reg/2017/745/oj.",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>From Results to Defensible Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html",
+    "href": "10-writing-clear-justifiable-claims.html",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "",
+    "text": "Framework Position\nThis chapter follows From Results to Defensible Claims.\nNow we ask:\n👉 How do we express those claims clearly, accurately, and defensibly?",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#why-wording-matters",
+    "href": "10-writing-clear-justifiable-claims.html#why-wording-matters",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Why wording matters",
+    "text": "Why wording matters\nEven when reasoning is correct:\n\nunclear wording can weaken a claim\n\nambiguous language can introduce risk\n\noverstatement can undermine credibility\n\n👉 A defensible claim must be clearly written",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#characteristics-of-strong-claims",
+    "href": "10-writing-clear-justifiable-claims.html#characteristics-of-strong-claims",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Characteristics of strong claims",
+    "text": "Characteristics of strong claims\nA well-written clinical claim is:\n\nSpecific → clearly states what is being claimed\n\nAccurate → reflects the actual evidence\n\nProportionate → matches strength of evidence\n\nTransparent → does not hide limitations\n\nClear claims should reflect both the strength and limitations of the evidence (Guyatt et al. 2008).",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#avoiding-ambiguity",
+    "href": "10-writing-clear-justifiable-claims.html#avoiding-ambiguity",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Avoiding ambiguity",
+    "text": "Avoiding ambiguity\nAvoid vague phrases such as:\n\n“improves outcomes”\n\n“effective”\n\n“safe”\n\nInstead, specify:\n\nwhat outcome\n\nhow much improvement\n\nunder what conditions",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#aligning-with-intended-use",
+    "href": "10-writing-clear-justifiable-claims.html#aligning-with-intended-use",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Aligning with intended use",
+    "text": "Aligning with intended use\nClaims must explicitly reflect:\n\nintended population\n\nintended purpose\n\nconditions of use\n\nA claim that exceeds intended use becomes indefensible.",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#qualifying-claims",
+    "href": "10-writing-clear-justifiable-claims.html#qualifying-claims",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Qualifying claims",
+    "text": "Qualifying claims\nStrong claims often include qualifiers:\n\n“in the studied population”\n\n“under specified conditions”\n\n“based on available evidence”\n\n👉 Qualification is not weakness\n👉 It is precision",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#matching-evidence-strength",
+    "href": "10-writing-clear-justifiable-claims.html#matching-evidence-strength",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Matching evidence strength",
+    "text": "Matching evidence strength\nHigh-quality, consistent evidence:\n→ allows stronger claims\nLimited or uncertain evidence:\n→ requires cautious wording\n👉 Language must reflect certainty level",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#examples",
+    "href": "10-writing-clear-justifiable-claims.html#examples",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Examples",
+    "text": "Examples\n\nWeak claim\n“The device improves patient outcomes.”\n\n\nImproved claim\n“The device demonstrated a reduction in symptom severity in the studied population under controlled conditions.”",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#common-pitfalls",
+    "href": "10-writing-clear-justifiable-claims.html#common-pitfalls",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Common pitfalls",
+    "text": "Common pitfalls\n\novergeneralization\n\nomission of context\n\noverstating significance\n\nlack of specificity\n\ndisconnect from evidence",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#structured-approach",
+    "href": "10-writing-clear-justifiable-claims.html#structured-approach",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Structured approach",
+    "text": "Structured approach\n\nWhat exactly is being claimed?\n\nWhat evidence supports it?\n\nWhat are the limitations?\n\nWhat qualifiers are needed?\n\nIs the wording precise and clear?",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#consistency-across-documentation",
+    "href": "10-writing-clear-justifiable-claims.html#consistency-across-documentation",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Consistency across documentation",
+    "text": "Consistency across documentation\nClaims should be consistent across:\n\nclinical evaluation reports\n\ninstructions for use\n\nmarketing materials\n\nInconsistency creates risk.",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#traceability-in-wording",
+    "href": "10-writing-clear-justifiable-claims.html#traceability-in-wording",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Traceability in wording",
+    "text": "Traceability in wording\nEach claim should:\n👉 map directly to evidence and reasoning\nThis ensures:\n\ntransparency\n\nreviewability\n\nregulatory defensibility",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#key-takeaway",
+    "href": "10-writing-clear-justifiable-claims.html#key-takeaway",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nClear writing is part of clinical evaluation.\nA defensible claim must be:\n👉 scientifically justified\n👉 and precisely communicated",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "10-writing-clear-justifiable-claims.html#what-comes-next",
+    "href": "10-writing-clear-justifiable-claims.html#what-comes-next",
+    "title": "Writing Clear and Justifiable Claims",
+    "section": "What comes next",
+    "text": "What comes next\nThe next chapter examines common failure points, highlighting where clinical evaluations often break down.\n\n\n\n\nGuyatt, Gordon H., Andrew D. Oxman, Gunn E. Vist, Regina Kunz, Yngve Falck-Ytter, Pablo Alonso-Coello, and Holger J. Schünemann. 2008. “GRADE: An Emerging Consensus on Rating Quality of Evidence and Strength of Recommendations.” BMJ 336 (7650): 924–26. https://doi.org/10.1136/bmj.39489.470347.AD.",
+    "crumbs": [
+      "From Results to Claims",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Writing Clear and Justifiable Claims</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html",
+    "href": "11-common-failure-points.html",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "",
+    "text": "Framework Position\nThis chapter reflects on the full framework by examining:\n👉 where clinical evaluation commonly fails\nAfter building a structured reasoning process, it is important to understand:\n👉 how that process breaks in practice",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#why-failure-points-matter",
+    "href": "11-common-failure-points.html#why-failure-points-matter",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Why failure points matter",
+    "text": "Why failure points matter\nMany clinical evaluations contain:\n\nsufficient data\n\nmultiple studies\n\nstatistically significant results\n\nYet still fail to support defensible claims.\nThe issue is often not lack of data, but:\n👉 breakdown in reasoning",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-1-results-without-context",
+    "href": "11-common-failure-points.html#failure-point-1-results-without-context",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 1: Results without context",
+    "text": "Failure Point 1: Results without context\nFocusing on results alone without:\n\nintended use\n\nclinical context\n\npopulation alignment\n\n👉 leads to misleading conclusions",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-2-weak-study-appraisal",
+    "href": "11-common-failure-points.html#failure-point-2-weak-study-appraisal",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 2: Weak study appraisal",
+    "text": "Failure Point 2: Weak study appraisal\nTreating all studies equally without:\n\nevaluating design\n\nassessing quality\n\nconsidering limitations\n\n👉 inflates weak evidence",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-3-ignoring-bias-and-limitations",
+    "href": "11-common-failure-points.html#failure-point-3-ignoring-bias-and-limitations",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 3: Ignoring bias and limitations",
+    "text": "Failure Point 3: Ignoring bias and limitations\nFailing to explicitly identify:\n\nbias\n\nuncertainty\n\nconstraints\n\n👉 creates false confidence",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-4-overreliance-on-statistical-significance",
+    "href": "11-common-failure-points.html#failure-point-4-overreliance-on-statistical-significance",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 4: Overreliance on statistical significance",
+    "text": "Failure Point 4: Overreliance on statistical significance\nEquating:\n\nstatistical significance\nwith\n\nclinical relevance\n\n👉 leads to overstated claims",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-5-incomplete-risk-benefit-evaluation",
+    "href": "11-common-failure-points.html#failure-point-5-incomplete-risk-benefit-evaluation",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 5: Incomplete risk-benefit evaluation",
+    "text": "Failure Point 5: Incomplete risk-benefit evaluation\nFocusing on:\n\nbenefits\n\nwhile neglecting:\n\nrisks\n\nuncertainty\n\n👉 results in unbalanced conclusions",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-6-unjustified-equivalence",
+    "href": "11-common-failure-points.html#failure-point-6-unjustified-equivalence",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 6: Unjustified equivalence",
+    "text": "Failure Point 6: Unjustified equivalence\nAssuming similarity without:\n\nstructured comparison\n\nclinical justification\n\n👉 weakens evidence transfer",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-7-lack-of-applicability-assessment",
+    "href": "11-common-failure-points.html#failure-point-7-lack-of-applicability-assessment",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 7: Lack of applicability assessment",
+    "text": "Failure Point 7: Lack of applicability assessment\nIgnoring differences between:\n\nstudy conditions\n\nreal-world use\n\n👉 reduces real-world validity",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-8-poor-synthesis",
+    "href": "11-common-failure-points.html#failure-point-8-poor-synthesis",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 8: Poor synthesis",
+    "text": "Failure Point 8: Poor synthesis\nSummarizing studies without:\n\nintegrating findings\n\nresolving inconsistencies\n\nweighing evidence\n\n👉 results remain disconnected",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-9-overclaiming",
+    "href": "11-common-failure-points.html#failure-point-9-overclaiming",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 9: Overclaiming",
+    "text": "Failure Point 9: Overclaiming\nMaking claims that:\n\nexceed evidence\n\nignore limitations\n\ngeneralize beyond scope\n\n👉 creates regulatory risk",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#failure-point-10-unclear-or-imprecise-wording",
+    "href": "11-common-failure-points.html#failure-point-10-unclear-or-imprecise-wording",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Failure Point 10: Unclear or imprecise wording",
+    "text": "Failure Point 10: Unclear or imprecise wording\nEven strong reasoning can fail if:\n\nclaims are vague\n\nlanguage is ambiguous\n\nconclusions are overstated\n\n👉 weak communication undermines validity",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#pattern-across-failures",
+    "href": "11-common-failure-points.html#pattern-across-failures",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Pattern across failures",
+    "text": "Pattern across failures\nAcross all failure points, one pattern emerges:\n👉 skipping steps in the reasoning chain\nClinical evaluation fails when:\n\nsteps are omitted\n\nconnections are not made\n\nreasoning is not explicit",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#structured-reflection",
+    "href": "11-common-failure-points.html#structured-reflection",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Structured reflection",
+    "text": "Structured reflection\nWhen reviewing a clinical evaluation, ask:\n\nIs the intended use clearly defined?\n\nIs evidence appropriately selected?\n\nAre studies critically appraised?\n\nAre bias and limitations identified?\n\nIs risk-benefit properly evaluated?\n\nIs equivalence justified?\n\nIs applicability confirmed?\n\nIs synthesis coherent?\n\nAre claims proportionate?\n\nIs wording precise?",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#key-takeaway",
+    "href": "11-common-failure-points.html#key-takeaway",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "Key takeaway",
+    "text": "Key takeaway\nClinical evaluation rarely fails because of missing data.\nIt fails because:\n👉 evidence is not translated into defensible reasoning",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "11-common-failure-points.html#what-comes-next",
+    "href": "11-common-failure-points.html#what-comes-next",
+    "title": "Common Failure Points in Clinical Evaluation",
+    "section": "What comes next",
+    "text": "What comes next\nThe final chapter summarizes the framework and provides guidance for applying it in practice.",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Common Failure Points in Clinical Evaluation</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html",
+    "href": "12-summary-and-next-steps.html",
+    "title": "Summary and Next Steps",
+    "section": "",
+    "text": "Bringing the framework together\nThis guide introduced a structured way to move from:\n👉 evidence → evaluation → interpretation → claims\nAt its core, the framework ensures that:\n👉 clinical claims are derived from reasoned interpretation, not isolated results",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html#the-complete-reasoning-chain",
+    "href": "12-summary-and-next-steps.html#the-complete-reasoning-chain",
+    "title": "Summary and Next Steps",
+    "section": "The complete reasoning chain",
+    "text": "The complete reasoning chain\nThe full process can be summarized as:\n\nDefine evidence and intended use\n\nAppraise study quality\n\nIdentify bias and limitations\n\nEvaluate risk versus benefit\n\nEstablish equivalence and justification\n\nConfirm clinical context and applicability\n\nSynthesize and interpret evidence\n\nTranslate findings into defensible claims\n\nCommunicate claims clearly and precisely\n\nEach step builds on the previous one.\nSkipping steps weakens the entire evaluation.",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html#what-this-changes-in-practice",
+    "href": "12-summary-and-next-steps.html#what-this-changes-in-practice",
+    "title": "Summary and Next Steps",
+    "section": "What this changes in practice",
+    "text": "What this changes in practice\nThis framework shifts clinical evaluation from:\n❌ descriptive reporting\n→ listing studies and results\nto:\n✅ analytical reasoning\n→ connecting evidence to justified conclusions",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html#from-information-to-decisions",
+    "href": "12-summary-and-next-steps.html#from-information-to-decisions",
+    "title": "Summary and Next Steps",
+    "section": "From information to decisions",
+    "text": "From information to decisions\nClinical evaluation is not an academic exercise.\nIt supports:\n\nregulatory submissions\n\nclinical decision-making\n\nproduct positioning\n\npatient safety\n\n👉 The outcome is not just understanding\n👉 It is defensible decision-making",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html#applying-the-framework",
+    "href": "12-summary-and-next-steps.html#applying-the-framework",
+    "title": "Summary and Next Steps",
+    "section": "Applying the framework",
+    "text": "Applying the framework\nIn practice, applying this framework means:\n\nasking structured questions at each step\n\nmaking reasoning explicit\n\ndocumenting decisions clearly\n\naligning claims with evidence strength\n\nIt also means:\n👉 being comfortable with uncertainty\n👉 avoiding overstatement",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html#continuous-improvement",
+    "href": "12-summary-and-next-steps.html#continuous-improvement",
+    "title": "Summary and Next Steps",
+    "section": "Continuous improvement",
+    "text": "Continuous improvement\nClinical evaluation is not static.\nIt evolves as:\n\nnew evidence becomes available\n\npost-market data emerges\n\nclinical use expands\n\nThe framework should be applied iteratively.",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html#final-principle",
+    "href": "12-summary-and-next-steps.html#final-principle",
+    "title": "Summary and Next Steps",
+    "section": "Final principle",
+    "text": "Final principle\nAcross all chapters, one principle remains central:\n👉 Defensible clinical claims require structured reasoning\nNot just data.\nNot just results.\nBut interpreted, justified, and contextualized evidence.",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html#what-you-can-do-next",
+    "href": "12-summary-and-next-steps.html#what-you-can-do-next",
+    "title": "Summary and Next Steps",
+    "section": "What you can do next",
+    "text": "What you can do next\nTo apply this guide:\n\nReview an existing clinical evaluation using this framework\n\nIdentify gaps in reasoning\n\nReconstruct the evaluation step by step\n\nStrengthen claims through explicit justification",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "12-summary-and-next-steps.html#closing-note",
+    "href": "12-summary-and-next-steps.html#closing-note",
+    "title": "Summary and Next Steps",
+    "section": "Closing note",
+    "text": "Closing note\nThe goal of this guide is not to provide templates.\nIt is to provide:\n👉 a way of thinking\nA way to move from:\n\ndata\n\nto understanding\n\nto defensible clinical claims",
+    "crumbs": [
+      "Practice and Closure",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Summary and Next Steps</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html",
+    "href": "999-appendix.html",
+    "title": "Appendix",
+    "section": "",
+    "text": "Purpose of this appendix\nThis section provides practical tools to apply the framework in real-world clinical evaluations.\nThese are not rigid templates.\nThey are:\n👉 structured aids to support consistent reasoning",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#clinical-evaluation-checklist",
+    "href": "999-appendix.html#clinical-evaluation-checklist",
+    "title": "Appendix",
+    "section": "Clinical Evaluation Checklist",
+    "text": "Clinical Evaluation Checklist\nUse this as a high-level review tool.\n\nEvidence and Intended Use\n\nIs the intended purpose clearly defined?\n\nIs the intended use explicitly described?\n\nIs the target population specified?\n\nIs the evidence aligned with intended use?\n\n\n\n\nStudy Appraisal\n\nAre study designs appropriate?\n\nAre populations relevant?\n\nAre endpoints clinically meaningful?\n\nAre methods appropriate?\n\n\n\n\nBias and Limitations\n\nAre potential biases identified?\n\nAre limitations clearly stated?\n\nIs uncertainty acknowledged?\n\n\n\n\nRisk–Benefit Evaluation\n\nAre benefits clearly defined?\n\nAre risks characterized (severity, frequency)?\n\nIs benefit balanced against risk?\n\n\n\n\nEquivalence and Justification\n\nIs equivalence appropriately assessed?\n\nAre similarities and differences analyzed?\n\nIs justification clearly explained?\n\n\n\n\nClinical Context and Applicability\n\nDoes the evidence reflect real-world use?\n\nAre contextual differences addressed?\n\n\n\n\nSynthesis and Interpretation\n\nAre findings integrated across studies?\n\nAre inconsistencies addressed?\n\nIs uncertainty incorporated?\n\n\n\n\nClaims\n\nAre claims supported by evidence?\n\nAre claims proportionate to evidence strength?\n\nAre limitations reflected in claims?\n\n\n\n\nCommunication\n\nAre claims clearly written?\n\nIs wording precise and unambiguous?\n\nIs traceability to evidence maintained?",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#study-appraisal-worksheet",
+    "href": "999-appendix.html#study-appraisal-worksheet",
+    "title": "Appendix",
+    "section": "Study Appraisal Worksheet",
+    "text": "Study Appraisal Worksheet\nFor each study, document:\n\nStudy design\n\nPopulation\n\nEndpoints\n\nSample size\n\nKey findings\n\nStrengths\n\nLimitations\n\nPotential bias\n\nOverall reliability",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#bias-identification-guide",
+    "href": "999-appendix.html#bias-identification-guide",
+    "title": "Appendix",
+    "section": "Bias Identification Guide",
+    "text": "Bias Identification Guide\nWhen reviewing a study, check for:\n\nSelection bias\n\nMeasurement bias\n\nConfounding\n\nReporting bias\n\nAttrition bias\n\nAsk:\n👉 How could this bias affect the results?",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#riskbenefit-evaluation-template",
+    "href": "999-appendix.html#riskbenefit-evaluation-template",
+    "title": "Appendix",
+    "section": "Risk–Benefit Evaluation Template",
+    "text": "Risk–Benefit Evaluation Template\n\nBenefits\n\nWhat benefits are observed?\n\nHow clinically meaningful are they?\n\n\n\nRisks\n\nWhat risks are identified?\n\nWhat is their severity and frequency?\n\n\n\nConclusion\n\nDoes benefit outweigh risk?\n\nUnder what conditions?",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#equivalence-assessment-template",
+    "href": "999-appendix.html#equivalence-assessment-template",
+    "title": "Appendix",
+    "section": "Equivalence Assessment Template",
+    "text": "Equivalence Assessment Template\n\nComparator device or evidence source\n\nSimilarities (technical, clinical, biological)\n\nDifferences\n\nImpact of differences\n\nJustification of equivalence",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#applicability-check",
+    "href": "999-appendix.html#applicability-check",
+    "title": "Appendix",
+    "section": "Applicability Check",
+    "text": "Applicability Check\n\nPopulation match\n\nClinical setting match\n\nUse conditions match\n\nDevice usage consistency\n\n👉 If differences exist, assess impact",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#synthesis-framework",
+    "href": "999-appendix.html#synthesis-framework",
+    "title": "Appendix",
+    "section": "Synthesis Framework",
+    "text": "Synthesis Framework\n\nSummary of individual studies\n\nWeight of evidence\n\nConsistency of findings\n\nIdentified uncertainties\n\nOverall interpretation",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#claim-development-checklist",
+    "href": "999-appendix.html#claim-development-checklist",
+    "title": "Appendix",
+    "section": "Claim Development Checklist",
+    "text": "Claim Development Checklist\n\nWhat is being claimed?\n\nWhat evidence supports it?\n\nWhat are the limitations?\n\nWhat qualifiers are needed?\n\nIs wording precise?",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#traceability-structure",
+    "href": "999-appendix.html#traceability-structure",
+    "title": "Appendix",
+    "section": "Traceability Structure",
+    "text": "Traceability Structure\nFor each claim, ensure:\n\nLink to supporting evidence\n\nLink to evaluation steps\n\nClear reasoning path\n\n👉 This enables review and validation",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#final-note",
+    "href": "999-appendix.html#final-note",
+    "title": "Appendix",
+    "section": "Final Note",
+    "text": "Final Note\nThese tools are intended to support:\n👉 structured, transparent, and defensible clinical evaluation\nThey should be adapted to:\n\ndevice type\n\nregulatory context\n\navailable evidence",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-appendix.html#citation-approach-in-this-guide",
+    "href": "999-appendix.html#citation-approach-in-this-guide",
+    "title": "Appendix",
+    "section": "Citation Approach in This Guide",
+    "text": "Citation Approach in This Guide\nThis guide uses citations selectively to support key concepts, not to exhaustively document every statement.\nCitations are included where they:\n\nAnchor formal definitions (for example, clinical evidence, bias, or risk–benefit evaluation)\nReference established methodological frameworks (such as evidence grading or study appraisal)\nReflect regulatory expectations relevant to clinical evaluation\n\nThe goal is to maintain a clear and readable narrative while ensuring that critical reasoning steps are grounded in recognized standards.\nThis approach aligns with the purpose of the guide:\nto support reproducible reasoning, not just reproducible results.",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "999-references.html",
+    "href": "999-references.html",
+    "title": "References",
+    "section": "",
+    "text": "“Factors to Consider When Making Benefit-Risk Determinations in\nMedical Device Premarket Approval and de Novo Classifications.”\n2016. U.S. Food; Drug Administration. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/factors-consider-when-making-benefit-risk-determinations-medical-device-premarket-approval-and-de.\n\n\nGuyatt, Gordon H., Andrew D. Oxman, Gunn E. Vist, Regina Kunz, Yngve\nFalck-Ytter, Pablo Alonso-Coello, and Holger J. Schünemann. 2008.\n“GRADE: An Emerging Consensus on Rating Quality of Evidence and\nStrength of Recommendations.” BMJ 336 (7650): 924–26. https://doi.org/10.1136/bmj.39489.470347.AD.\n\n\nHernán, Miguel A., and James M. Robins. 2020. Causal Inference: What\nIf. Chapman & Hall/CRC. https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/.\n\n\n“MEDDEV 2.7/1 Rev. 4: Clinical Evaluation: A Guide for\nManufacturers and Notified Bodies.” 2016. European Commission. https://ec.europa.eu/docsroom/documents/17522/attachments/1/translations/en/renditions/native.\n\n\n“Regulation (EU) 2017/745 on Medical Devices.” 2017.\nEuropean Parliament; Council of the European Union. https://eur-lex.europa.eu/eli/reg/2017/745/oj.",
+    "crumbs": [
+      "Reference",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>References</span>"
+    ]
+  }
+]
